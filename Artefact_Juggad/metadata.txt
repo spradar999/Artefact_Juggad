@@ -1,0 +1,16 @@
+[general]
+name=ArtefactJugaad
+description=Corrects localized raster artefacts using reference raster replacement or interpolation while preserving the original raster grid.
+about=ArtefactJugaad is a practical raster correction tool for QGIS that identifies user-defined artefact regions and reconstructs their values using either a reference raster or interpolation from surrounding valid pixels. The tool supports multiple artefact polygons and treats the Raster to Correct as the master grid, preserving its CRS, pixel size, dimensions, spatial extent and grid alignment. It is designed for DEMs, remote sensing products, terrain datasets, interpolated surfaces and other gridded raster data.
+version=1.6.0
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+author=Raghavendra S P
+email=spradar999@gmail.com
+icon=icon.png
+category=Raster
+experimental=False
+tracker=https://github.com/spradar999/Artefact_Juggad/issues
+repository=https://github.com/spradar999/Artefact_Juggad
+homepage=https://github.com/spradar999/Artefact_Juggad
+tags=raster, artefact, correction, interpolation, dem, remote sensing, gis, gdal, raster correction
